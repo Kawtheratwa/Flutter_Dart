@@ -1,0 +1,15 @@
+
+
+import 'dart:io';
+void main()
+{
+   greed("Kawther");
+   greed("Kawther ","Welcome");
+}
+
+void greed( String name,  [ String greeting ="Hello"])
+{
+
+ print('$greeting ,$name !');
+
+}
